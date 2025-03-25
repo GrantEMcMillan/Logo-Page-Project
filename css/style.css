@@ -50,6 +50,17 @@
 }
 
 /*Mountain Image*/
+.logo-img {
+  position: absolute;
+
+  top: 2.3%;
+  left: 44%;
+  z-index: 1;
+  width: 9%;
+  border-radius: 50%;
+}
+
 .mountain-img {
   width: 80%;
+  position: relative;
 }
