@@ -68,3 +68,21 @@
 .mountain-img {
   width: 80%;
 }
+
+/*Info Columns*/
+
+.info-container {
+  width: 80%;
+}
+
+.info-image {
+  display: block;
+  margin: auto;
+  padding: 2rem;
+}
+
+.date {
+  font-style: italic;
+  font-weight: bold;
+  opacity: 40%;
+}
