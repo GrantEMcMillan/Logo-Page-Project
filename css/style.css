@@ -32,6 +32,8 @@
     #555555 100%
   );
   padding: 0;
+  height: 5rem;
+  position: relative;
 }
 
 .main-nav-list {
@@ -41,7 +43,7 @@
 .main-nav li {
   list-style: none;
   display: inline;
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .main-nav a {
@@ -53,19 +55,16 @@
 
 .logo-and-mountain {
   text-align: center;
-  position: relative;
 }
 .logo-img {
   position: absolute;
-
-  top: -21.7%;
-  left: 44%;
-  z-index: 1;
-  width: 9%;
+  top: -36%;
+  left: 43%;
+  width: 11%;
   border-radius: 50%;
+  z-index: 1;
 }
 
 .mountain-img {
   width: 80%;
-  position: relative;
 }
