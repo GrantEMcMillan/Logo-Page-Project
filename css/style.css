@@ -50,10 +50,15 @@
 }
 
 /*Mountain Image*/
+
+.logo-and-mountain {
+  text-align: center;
+  position: relative;
+}
 .logo-img {
   position: absolute;
 
-  top: 2.3%;
+  top: -21.7%;
   left: 44%;
   z-index: 1;
   width: 9%;
