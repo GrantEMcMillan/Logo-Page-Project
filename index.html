@@ -39,32 +39,63 @@
     </div>
 
     <!-- Main Navbar -->
-    <div class="container main-nav">
-      <div class="row">
-        <div class="col">
-          <ul class="main-nav-list text-center my-4">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">EVENTS</a></li>
-            <li>
-              <a href="#"
-                ><img class="logo-img" src="./images/Logo.png" alt="logo"
-              /></a>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand d-lg-none" href="#"
+          ><img src="./images/Logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
             </li>
-            <li><a href="#">GALLERY</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">EVENTS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
 
     <!-- Mountain Image -->
     <div class="conatainer-fluid">
       <div class="row">
         <div class="logo-and-mountain">
+          <img
+            class="logo-img d-none d-lg-block"
+            src="./images/Logo.png"
+            alt="logo"
+          />
           <img
             class="mountain-img"
             src="./images/mountain.png"
@@ -78,9 +109,9 @@
     <div class="container-fluid info-container">
       <div class="row">
         <!-- Graph Column -->
-        <div class="col-4 info">
+        <div class="col-lg-4 info">
           <img
-            class="info-image"
+            class="info-image img-fluid"
             src="./images/graph.png"
             alt="line graph with upward trending arrow"
           />
@@ -100,9 +131,9 @@
         </div>
 
         <!-- Check Column -->
-        <div class="col-4 info">
+        <div class="col-lg-4 info">
           <img
-            class="info-image"
+            class="info-image img-fluid"
             src="./images/check.png"
             alt="square with check mark"
           />
@@ -122,8 +153,12 @@
         </div>
 
         <!-- Pie Column -->
-        <div class="col-4 info">
-          <img class="info-image" src="./images/pie.png" alt="pie chart" />
+        <div class="col-lg-4 info">
+          <img
+            class="info-image img-fluid"
+            src="./images/pie.png"
+            alt="pie chart"
+          />
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quae
@@ -140,5 +175,6 @@
         </div>
       </div>
     </div>
+    <script src="./js/bootstrap.js"></script>
   </body>
 </html>
