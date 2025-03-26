@@ -52,6 +52,7 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onclick="myFunction()"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -307,5 +308,13 @@
     </footer>
 
     <script src="./js/bootstrap.js"></script>
+
+    <script>
+      function myFunction() {
+        document.getElementById(
+          "navbarSupportedContent"
+        ).style.backgroundColor = "#555555";
+      }
+    </script>
   </body>
 </html>
