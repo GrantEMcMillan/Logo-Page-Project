@@ -15,10 +15,14 @@
 
 .top-nav li {
   display: inline;
+  color: #4f4d4e;
 }
 .top-nav a {
   text-decoration: none;
   color: #4f4d4e;
+  &:hover {
+    color: white;
+  }
 }
 
 /*Main Navbar*/
