@@ -180,3 +180,17 @@
   color: #4f4d4e;
   text-align: right;
 }
+
+/* Location */
+.location-column {
+  padding: 2rem;
+}
+.location-column img {
+  width: 50%;
+}
+
+.location-column p {
+  color: #4f4d4e;
+  padding: 0;
+  font-size: 0.8rem;
+}
