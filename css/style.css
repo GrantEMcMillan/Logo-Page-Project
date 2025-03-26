@@ -1,3 +1,7 @@
+.top-container {
+  background-color: black;
+}
+
 .search-input {
   background-color: #4f4d4e;
   padding: 0 1rem;
@@ -40,6 +44,11 @@
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.navbar.toggled {
+  background-color: #555555; /* Color when toggled */
+  color: white;
 }
 
 .navbar-brand img {
@@ -103,4 +112,8 @@
 .read {
   text-align: right;
   padding-left: 0;
+}
+/* Bottom Section with Nav links, icons, etc. */
+.bottom-container {
+  background-color: black;
 }
