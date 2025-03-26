@@ -116,4 +116,44 @@
 /* Bottom Section with Nav links, icons, etc. */
 .bottom-container {
   background-color: black;
+  padding: 0 4rem;
+}
+
+/* Bottom Nav Links */
+
+.bottom-nav {
+  padding: 2rem;
+}
+
+.bottom-nav ul {
+  padding: 0 1rem;
+}
+
+.bottom-nav li {
+  list-style: none;
+  text-align: center;
+}
+
+.bottom-nav a {
+  color: #4f4d4e;
+  text-decoration: none;
+}
+
+/* Icons Column */
+
+.icons-column {
+  padding: 2rem;
+}
+
+.icons-column ul {
+  padding: 0 1rem;
+}
+
+.icons-column img {
+  width: 10%;
+}
+
+.icons-column li {
+  list-style: none;
+  display: inline;
 }
