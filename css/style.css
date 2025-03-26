@@ -65,6 +65,13 @@
   }
 }
 
+@media (max-width: 373px) {
+  #navbar-small {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
 /* Center Logo Image */
 .logo-img {
   width: 9rem;
