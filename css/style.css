@@ -40,7 +40,6 @@
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 }
 
 .navbar-brand img {
@@ -51,28 +50,28 @@
 .navbar-nav {
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
 }
 
 .nav-item {
-  padding: 2.6rem;
+  padding: 1rem;
 }
 
 .navbar .nav-link {
   color: white;
+  text-align: center;
+}
+
+/* Center Logo Image */
+.logo-img {
+  width: 9rem;
+  border-radius: 50%;
 }
 
 /*Mountain Image*/
 
 .logo-and-mountain {
   text-align: center;
-}
-.logo-img {
-  position: absolute;
-  top: 5%;
-  left: 46%;
-  width: 7%;
-  border-radius: 50%;
-  z-index: 1;
 }
 
 .mountain-img {
