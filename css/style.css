@@ -65,6 +65,9 @@
 .navbar .nav-link {
   color: white;
   text-align: center;
+  &:hover {
+    background-color: black;
+  }
 }
 
 /* Center Logo Image */
