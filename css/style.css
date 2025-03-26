@@ -150,7 +150,7 @@
 }
 
 .icons-column img {
-  width: 10%;
+  width: 2rem;
 }
 
 .icons-column li {
@@ -183,14 +183,26 @@
 
 /* Location */
 .location-column {
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 .location-column img {
-  width: 50%;
+  width: 2rem;
 }
 
 .location-column p {
   color: #4f4d4e;
   padding: 0;
+  margin: 0;
   font-size: 0.8rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  padding: 1rem;
+}
+footer p {
+  text-align: center;
+  color: #1e1e1e;
 }
