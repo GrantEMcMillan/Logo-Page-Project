@@ -85,14 +85,27 @@
   width: 80%;
 }
 
+.info {
+  padding: 1rem;
+}
+
 .info-image {
   display: block;
   margin: auto;
   padding: 2rem;
 }
 
+.text {
+  text-align: justify;
+}
+
 .date {
   font-style: italic;
   font-weight: bold;
   opacity: 40%;
+  padding-right: 0;
+}
+.read {
+  text-align: right;
+  padding-left: 0;
 }
