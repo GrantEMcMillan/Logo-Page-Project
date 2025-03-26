@@ -46,11 +46,6 @@
   margin-right: auto;
 }
 
-.navbar.toggled {
-  background-color: #555555; /* Color when toggled */
-  color: white;
-}
-
 .navbar-brand img {
   width: 25%;
   border-radius: 50%;
