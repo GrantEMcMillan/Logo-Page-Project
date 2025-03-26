@@ -92,7 +92,9 @@
 .info {
   padding: 1rem;
 }
-
+div.row.pb-5 {
+  align-items: baseline;
+}
 .info-image {
   display: block;
   margin: auto;
